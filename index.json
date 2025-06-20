@@ -1,0 +1,247 @@
+[
+  {
+    "contributors": [
+      "Andrew VanVleet"
+    ],
+    "external_ids": [
+      "T1003.006"
+    ],
+    "id": "TRR0011",
+    "name": "DC Synchronization Attack (DCSync)",
+    "platforms": [
+      "ad"
+    ],
+    "procedures": {
+      "A": "Request replication from a DC"
+    },
+    "pub_date": "2025-02-10",
+    "tactics": [
+      "Credential Access"
+    ]
+  },
+  {
+    "contributors": [
+      "Andrew VanVleet"
+    ],
+    "external_ids": [
+      "T1558.004"
+    ],
+    "id": "TRR0012",
+    "name": "Kerberos AS-REP Roasting",
+    "platforms": [
+      "ad"
+    ],
+    "procedures": {
+      "A": "Enumerate Accounts Lacking Pre-Authentication via LDAP",
+      "B": "Enumerate Accounts Lacking Pre-Authentication via ADWS",
+      "C": "Test All Accounts for Pre-Authentication Status",
+      "D": "Intercept AS Messages on the Network"
+    },
+    "pub_date": "2025-02-10",
+    "tactics": [
+      "Credential Access"
+    ]
+  },
+  {
+    "contributors": [
+      "Andrew VanVleet",
+      "Chris Hodson"
+    ],
+    "external_ids": [
+      "T1558.001"
+    ],
+    "id": "TRR0013",
+    "name": "Forge a Kerberos TGT (Golden Ticket)",
+    "platforms": [
+      "ad"
+    ],
+    "procedures": {
+      "A": "Forge a TGT using the KRBTGT password hash"
+    },
+    "pub_date": "2025-02-10",
+    "tactics": [
+      "Credential Access"
+    ]
+  },
+  {
+    "contributors": [
+      "Andrew VanVleet"
+    ],
+    "external_ids": [
+      "T1207"
+    ],
+    "id": "TRR0014",
+    "name": "Rogue Domain Controller (DCShadow)",
+    "platforms": [
+      "ad"
+    ],
+    "procedures": {
+      "A": "Insert a rogue DC"
+    },
+    "pub_date": "2025-02-11",
+    "tactics": [
+      "Credential Access"
+    ]
+  },
+  {
+    "contributors": [
+      "Andrew VanVleet"
+    ],
+    "external_ids": [
+      "T1003.003"
+    ],
+    "id": "TRR0015",
+    "name": "Stealing Credentials from the NTDS.dit",
+    "platforms": [
+      "azr",
+      "ad"
+    ],
+    "procedures": {
+      "A": "Snapshot or Image of Virtual Disk",
+      "B": "Transfer Subscription to Attacker Tenant"
+    },
+    "pub_date": "2025-02-11",
+    "tactics": [
+      "Credential Access"
+    ]
+  },
+  {
+    "contributors": [
+      "Andrew VanVleet"
+    ],
+    "external_ids": [
+      "T1003.003"
+    ],
+    "id": "TRR0015",
+    "name": "Stealing Credentials from the NTDS.dit",
+    "platforms": [
+      "win",
+      "ad"
+    ],
+    "procedures": {
+      "A": "Volume Shadow Copy Access",
+      "B": "Raw disk Access"
+    },
+    "pub_date": "2025-02-11",
+    "tactics": [
+      "Credential Access"
+    ]
+  },
+  {
+    "contributors": [
+      "Andrew VanVleet"
+    ],
+    "external_ids": [
+      "T1218.005"
+    ],
+    "id": "TRR0016",
+    "name": "Signed Binary Proxy Execution with MSHTA",
+    "platforms": [
+      "win"
+    ],
+    "procedures": {
+      "A": "Mshta executing HTA files or inline scripts",
+      "B": "RunDll32 calling RunHTMLApplication from mshtml.dll"
+    },
+    "pub_date": "2025-02-11",
+    "tactics": [
+      "Defense Evasion"
+    ]
+  },
+  {
+    "contributors": [
+      "Andrew VanVleet"
+    ],
+    "external_ids": [
+      "T1200"
+    ],
+    "id": "TRR0017",
+    "name": "Malicious USB Device",
+    "platforms": [
+      "win"
+    ],
+    "procedures": {
+      "A": "Hardware-based keystroke logging",
+      "B": "Keystroke injection",
+      "C": "Clandestine data transfer"
+    },
+    "pub_date": "2025-02-11",
+    "tactics": [
+      "Defense Evasion",
+      "Initial Access",
+      "Credential Access"
+    ]
+  },
+  {
+    "contributors": [
+      "Andrew VanVleet"
+    ],
+    "external_ids": [
+      "T1558.003"
+    ],
+    "id": "TRR0018",
+    "name": "Kerberos Service Ticket Roasting (Kerberoasting)",
+    "platforms": [
+      "ad"
+    ],
+    "procedures": {
+      "A": "Enumerate SPNs with LDAP",
+      "B": "Enumerate SPNs with ADWS",
+      "C": "Intercept Tickets On the Network",
+      "D": "Harvest Tickets off Endpoints"
+    },
+    "pub_date": "2025-02-18",
+    "tactics": [
+      "Credential Access"
+    ]
+  },
+  {
+    "contributors": [
+      "Andrew VanVleet"
+    ],
+    "external_ids": [
+      "T1114.002"
+    ],
+    "id": "TRR0019",
+    "name": "Remote Email Collection",
+    "platforms": [
+      "exo"
+    ],
+    "procedures": {
+      "A": "Valid Credentials",
+      "B": "API Access as an Application",
+      "C": "eDiscovery",
+      "D": "Mailbox Delegation",
+      "E": "Export Mailbox"
+    },
+    "pub_date": "2025-04-08",
+    "tactics": [
+      "Collection"
+    ]
+  },
+  {
+    "contributors": [
+      "Andrew VanVleet"
+    ],
+    "external_ids": [
+      "AZT501.2",
+      "T1098.001",
+      "T1098.003"
+    ],
+    "id": "TRR0020",
+    "name": "Service Principal Manipulation",
+    "platforms": [
+      "azr"
+    ],
+    "procedures": {
+      "A": "Add Credentials",
+      "B": "Add Owner",
+      "C": "Add Role",
+      "D": "Add API Permissions"
+    },
+    "pub_date": "2025-05-12",
+    "tactics": [
+      "Persistence"
+    ]
+  }
+]
