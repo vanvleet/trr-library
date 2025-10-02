@@ -1,9 +1,6 @@
 # TRR Library
 
-Welcome to the TRR Library! This is the frontend for the Technique Research
-Report repository. This repo holds the code that runs the frontend only.  Unless
-you know this is where you want to be, you're probably looking for the [TRR
-repo] itself. If you're looking for the frontend GUI, go [here].
+Welcome to the TRR Library! The TRR frontend has moved to a new home! You can find the TRR Library [here], or you can contribute to it at the [TRR Repo].
 
-[TRR Repo]: https://work.in.progess
-[here]: https://vanvleet.github.io/trr-library/
+[TRR Repo]: https://github.com/tired-labs/techniques
+[here]: https://library.threat-research.org
